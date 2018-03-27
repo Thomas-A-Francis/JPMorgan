@@ -1,0 +1,52 @@
+apple at 10p
+20 sales of apples at 10p
+Add 10p apples
+20 sales of apples at 20p
+banana at 20p
+10 sales of banana at 20p
+Subtract 10p banana
+5 sales of banana at 10p
+pineapple at 30p
+2 sales of pineapple at 30p
+Multiply 10p pineapples
+2 sales of pineapples at 300p
+avocado at 20p
+4 sales of avocado at 20p
+10 sales of avocado at 20p
+Add 10p avocado
+10 sales of avocado at 30p
+10 sales of apples at 20p
+10 sales of bananas at 10p
+5 sales of pineapples at 300p
+10 sales of avocado at 30p
+10 sales of apples at 20p
+10 sales of bananas at 10p
+5 sales of pineapples at 300p
+10 sales of avocado at 30p
+10 sales of apples at 20p
+10 sales of bananas at 10p
+5 sales of pineapples at 300p
+10 sales of avocado at 30p
+10 sales of apples at 20p
+10 sales of bananas at 10p
+5 sales of pineapples at 300p
+10 sales of avocado at 30p
+10 sales of apples at 20p
+10 sales of bananas at 10p
+5 sales of pineapples at 300p
+10 sales of avocado at 30p
+10 sales of apples at 20p
+10 sales of bananas at 10p
+5 sales of pineapples at 300p
+10 sales of avocado at 30p
+10 sales of apples at 20p
+10 sales of bananas at 10p
+5 sales of pineapples at 300p
+10 sales of avocado at 30p
+10 sales of apples at 20p
+10 sales of bananas at 10p
+5 sales of pineapples at 300p
+10 sales of avocado at 30p
+10 sales of apples at 20p
+10 sales of bananas at 10p
+5 sales of pineapples at 300p
