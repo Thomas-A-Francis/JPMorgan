@@ -5,17 +5,28 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.jpmorgan.domain.MessageType;
 import com.jpmorgan.domain.SaleDetail;
-import com.jpmorgan.util.MessageType;
 
+/**
+ * @author Thomas Francis 
+ * 
+ * The Class SalesProcessorService.
+ */
 public abstract class SalesProcessorService {
 
 	public int messageCounter;
 
-	public Map<String, SaleDetail> saleDetailsMap = new HashMap<>();
+	public Map<String, SaleDetail> salesDetailsMap = new HashMap<>();
 
 	public List<String> salesAdjustments = new ArrayList<>();
-	
-	public abstract void processMessage(MessageType messageType, String line);
-	
+
+	/**
+	 * Process message.
+	 *
+	 * @param MessageType the message type
+	 * @param String  the sale detail
+	 */
+	public abstract void processMessage(MessageType messageType, String saleDetail);
+
 }

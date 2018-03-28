@@ -1,5 +1,7 @@
 package com.jpmorgan.util;
 
+import com.jpmorgan.domain.MessageType;
+
 public class MessageParser {
 
 	private static final String SPACE = " ";

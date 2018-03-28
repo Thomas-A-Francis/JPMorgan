@@ -5,8 +5,18 @@ import java.util.List;
 
 import com.jpmorgan.domain.SaleDetail;
 
+/**
+ * 
+ * @author Thomas Francis
+ * The Class SaleReportServiceImpl.
+ * 
+ * Service is responsible to push reports for sales
+ */
 public class SaleReportServiceImpl implements SalesReportService {
 
+	/* (non-Javadoc)
+	 * @see com.jpmorgan.service.SalesReportService#publishSalesReport(java.util.Collection)
+	 */
 	@Override
 	public void publishSalesReport(Collection<SaleDetail> salesDetails) {
 		System.out.println("*********************SALES TRANSIT REPORT*****************************");
@@ -19,6 +29,9 @@ public class SaleReportServiceImpl implements SalesReportService {
 		}		
 	}
 
+	/* (non-Javadoc)
+	 * @see com.jpmorgan.service.SalesReportService#publishAdjustmentReport(java.util.List)
+	 */
 	@Override
 	public void publishAdjustmentReport(List<String> salesAdjustments) {
 		System.out.println("*********************ADJUSTMENT IN SALES REPORT*****************************");

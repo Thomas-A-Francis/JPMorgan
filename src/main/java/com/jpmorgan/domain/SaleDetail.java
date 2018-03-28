@@ -2,7 +2,8 @@ package com.jpmorgan.domain;
 
 /**
  * @author Thomas Francis
- * 
+ *
+ * POJO Class to map Sale details.
  */
 public class SaleDetail {
 
@@ -13,6 +14,18 @@ public class SaleDetail {
 	private int quantity;
 
 	private double totalCost;
+	
+	public SaleDetail() {
+		super();
+	}
+
+	public SaleDetail(String name, double price, int quantity, double totalCost) {
+		super();
+		this.name = name;
+		this.price = price;
+		this.quantity = quantity;
+		this.totalCost = totalCost;
+	}
 
 	public String getName() {
 		return name;
